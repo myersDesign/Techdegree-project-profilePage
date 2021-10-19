@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.main-header {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -55,6 +55,7 @@ a:hover {
   color: white
 }
 
+/* Picture provided from google search for dallas skyline image search https://smartcitylocating.com/blog/austin-vs-dallas-the-great-debate/ */
 header {
   text-align: center;
   background: url('images/dallas2.jpg') no-repeat top center ;
@@ -62,6 +63,26 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+/* Picture provided from reddit by https://www.taxwatchuk.org/circuit-board-header-image-dark/ */
+.header2 {
+  text-align: center;
+  background: url('images/codeHeader.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  
+}
+
+/* Picture provided from reddit by u/whatthedeafearhears */
+.header3 {
+  text-align: center;
+  background: url('images/trailDallas.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  
+}
+
 header {
   line-height: 1.5;
 }
@@ -69,12 +90,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 20%;
+  border: 3.5px solid white;
+  transition: all .6s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(2deg);
 }
 .tag {
   background-color: #efefef;
@@ -88,7 +109,7 @@ header .profile-image:hover {
   background-color: #222;
   color: rgb(36, 149, 224);
 }
-.card {
+.texthover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -98,13 +119,27 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.texthover:hover {
+  border-color: #2b29b9;
 }
 
 ul.skills {
   padding: 0;
   text-align: center;
+}
+
+ul.hobbies {
+  padding: 0;
+  text-align: center;
+}
+
+.hobbies li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #00a2be;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
 }
 
 .skills li {
@@ -205,3 +240,12 @@ a.social:hover {
 
 }
 
+.tyson {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  transition: all .6s;
+}
+.tyson:hover {
+  transform: scale(4.0) rotate(2deg);
