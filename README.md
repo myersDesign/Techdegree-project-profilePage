@@ -1,2 +1,2 @@
-# Techdegree project-profilePage
- Techdegree profile page project.
+# Techdegree profilePage
+
